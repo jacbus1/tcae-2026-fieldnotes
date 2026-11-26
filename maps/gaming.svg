@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="734pt" height="302pt" viewBox="0.00 0.00 733.92 301.92" role="img" aria-labelledby="diagram-title diagram-desc" style="background:#fdfbf9">
+<title id="diagram-title">Which explanation fits the player’s activity?</title><desc id="diagram-desc">AML, fraud and responsible-gaming teams have different mandates. Document the evidence for each referral and the records that were unavailable to the decision-maker.</desc><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(12.96 288.96)">
+<title>topic</title>
+
+<g id="edge1" class="edge">
+<title>join-&gt;test</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M364,-230.81C364,-223.19 364,-214.51 364,-206.39" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="366.45,-206.14 364,-199.14 361.55,-206.14 366.45,-206.14" />
+</g>
+
+<g id="edge2" class="edge">
+<title>test-&gt;ordinary</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M290.87,-153.91C259.27,-144.57 222.2,-133.63 189.87,-124.08" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="190.46,-121.7 183.05,-122.07 189.07,-126.4 190.46,-121.7" />
+</g>
+
+<g id="edge3" class="edge">
+<title>test-&gt;crime</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M364,-153.81C364,-146.19 364,-137.51 364,-129.39" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="366.45,-129.14 364,-122.14 361.55,-129.14 366.45,-129.14" />
+</g>
+
+<g id="edge4" class="edge">
+<title>test-&gt;harm</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M431.08,-153.91C459.83,-144.65 493.51,-133.81 522.99,-124.32" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="524.08,-126.55 529.99,-122.07 522.58,-121.88 524.08,-126.55" />
+</g>
+
+<g id="edge5" class="edge">
+<title>ordinary-&gt;record</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M110,-76.81C110,-69.19 110,-60.51 110,-52.39" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="112.45,-52.14 110,-45.14 107.55,-52.14 112.45,-52.14" />
+</g>
+
+<g id="edge6" class="edge">
+<title>crime-&gt;refer</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M363.71,-76.81C363.61,-69.19 363.49,-60.51 363.39,-52.39" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="365.83,-52.11 363.29,-45.14 360.93,-52.18 365.83,-52.11" />
+</g>
+
+<g id="edge7" class="edge">
+<title>harm-&gt;care</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M597.29,-76.81C597.39,-69.19 597.51,-60.51 597.61,-52.39" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="600.07,-52.18 597.71,-45.14 595.17,-52.11 600.07,-52.18" />
+</g>
+
+<g id="node1" class="node">
+<title>join</title>
+<path fill="#302c34" stroke="#302c34" stroke-width="1.3" d="M478.5,-276C478.5,-276 249.5,-276 249.5,-276 243.5,-276 237.5,-270 237.5,-264 237.5,-264 237.5,-243 237.5,-243 237.5,-237 243.5,-231 249.5,-231 249.5,-231 478.5,-231 478.5,-231 484.5,-231 490.5,-237 490.5,-243 490.5,-243 490.5,-264 490.5,-264 490.5,-270 484.5,-276 478.5,-276" />
+<text text-anchor="start" x="258.5" y="-256" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#ffffff">Build the player timeline</text>
+<text text-anchor="start" x="249.5" y="-243.4" font-family="DejaVu Sans" font-size="12.00" fill="#f2e9f3">Funding, play, incentives and cash-out</text>
+</g>
+
+<g id="node2" class="node">
+<title>test</title>
+<path fill="#fff2c8" stroke="#b79538" stroke-width="1.3" d="M486.5,-199C486.5,-199 241.5,-199 241.5,-199 235.5,-199 229.5,-193 229.5,-187 229.5,-187 229.5,-166 229.5,-166 229.5,-160 235.5,-154 241.5,-154 241.5,-154 486.5,-154 486.5,-154 492.5,-154 498.5,-160 498.5,-166 498.5,-166 498.5,-187 498.5,-187 498.5,-193 492.5,-199 486.5,-199" />
+<text text-anchor="start" x="241.5" y="-179" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#4b381c">Test competing explanations</text>
+<text text-anchor="start" x="255" y="-166.4" font-family="DejaVu Sans" font-size="12.00" fill="#665634">Check observations and permissions</text>
+</g>
+
+<g id="node3" class="node">
+<title>ordinary</title>
+<path fill="#ffffff" stroke="#ccc5ce" stroke-width="1.3" d="M208,-122C208,-122 12,-122 12,-122 6,-122 0,-116 0,-110 0,-110 0,-89 0,-89 0,-83 6,-77 12,-77 12,-77 208,-77 208,-77 214,-77 220,-83 220,-89 220,-89 220,-110 220,-110 220,-116 214,-122 208,-122" />
+<text text-anchor="start" x="52.5" y="-102" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#28242c">Ordinary play</text>
+<text text-anchor="start" x="12" y="-89.4" font-family="DejaVu Sans" font-size="12.00" fill="#554f58">Compare profile and play history</text>
+</g>
+
+<g id="node4" class="node">
+<title>crime</title>
+<path fill="#ffffff" stroke="#ccc5ce" stroke-width="1.3" d="M476.5,-122C476.5,-122 251.5,-122 251.5,-122 245.5,-122 239.5,-116 239.5,-110 239.5,-110 239.5,-89 239.5,-89 239.5,-83 245.5,-77 251.5,-77 251.5,-77 476.5,-77 476.5,-77 482.5,-77 488.5,-83 488.5,-89 488.5,-89 488.5,-110 488.5,-110 488.5,-116 482.5,-122 476.5,-122" />
+<text text-anchor="start" x="299" y="-102" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#28242c">Financial crime</text>
+<text text-anchor="start" x="251.5" y="-89.4" font-family="DejaVu Sans" font-size="12.00" fill="#554f58">Test source, links and incentive abuse</text>
+</g>
+
+<g id="node5" class="node">
+<title>harm</title>
+<path fill="#ffffff" stroke="#ccc5ce" stroke-width="1.3" d="M672.5,-122C672.5,-122 521.5,-122 521.5,-122 515.5,-122 509.5,-116 509.5,-110 509.5,-110 509.5,-89 509.5,-89 509.5,-83 515.5,-77 521.5,-77 521.5,-77 672.5,-77 672.5,-77 678.5,-77 684.5,-83 684.5,-89 684.5,-89 684.5,-110 684.5,-110 684.5,-116 678.5,-122 672.5,-122" />
+<text text-anchor="start" x="545.5" y="-102" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#28242c">Player harm</text>
+<text text-anchor="start" x="521.5" y="-89.4" font-family="DejaVu Sans" font-size="12.00" fill="#554f58">Assess welfare indicators</text>
+</g>
+
+<g id="node6" class="node">
+<title>record</title>
+<path fill="#f1e2f4" stroke="#b392bd" stroke-width="1.3" d="M203.5,-45C203.5,-45 16.5,-45 16.5,-45 10.5,-45 4.5,-39 4.5,-33 4.5,-33 4.5,-12 4.5,-12 4.5,-6 10.5,0 16.5,0 16.5,0 203.5,0 203.5,0 209.5,0 215.5,-6 215.5,-12 215.5,-12 215.5,-33 215.5,-33 215.5,-39 209.5,-45 203.5,-45" />
+<text text-anchor="start" x="16.5" y="-25" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#49334c">Document disposition</text>
+<text text-anchor="start" x="33" y="-12.4" font-family="DejaVu Sans" font-size="12.00" fill="#5a465f">Record contrary evidence</text>
+</g>
+
+<g id="node7" class="node">
+<title>refer</title>
+<path fill="#ffebe3" stroke="#d39883" stroke-width="1.3" d="M456.5,-45C456.5,-45 269.5,-45 269.5,-45 263.5,-45 257.5,-39 257.5,-33 257.5,-33 257.5,-12 257.5,-12 257.5,-6 263.5,0 269.5,0 269.5,0 456.5,0 456.5,0 462.5,0 468.5,-6 468.5,-12 468.5,-12 468.5,-33 468.5,-33 468.5,-39 462.5,-45 456.5,-45" />
+<text text-anchor="start" x="270.5" y="-25" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#583a28">Refer to AML or fraud</text>
+<text text-anchor="start" x="269.5" y="-12.4" font-family="DejaVu Sans" font-size="12.00" fill="#6e513d">Assess reporting independently</text>
+</g>
+
+<g id="node8" class="node">
+<title>care</title>
+<path fill="#f1e2f4" stroke="#b392bd" stroke-width="1.3" d="M696,-45C696,-45 500,-45 500,-45 494,-45 488,-39 488,-33 488,-33 488,-12 488,-12 488,-6 494,0 500,0 500,0 696,0 696,0 702,0 708,-6 708,-12 708,-12 708,-33 708,-33 708,-39 702,-45 696,-45" />
+<text text-anchor="start" x="511.5" y="-25" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#49334c">Offer player support</text>
+<text text-anchor="start" x="500" y="-12.4" font-family="DejaVu Sans" font-size="12.00" fill="#5a465f">Use authorized welfare channels</text>
+</g>
+</g>
+</svg>

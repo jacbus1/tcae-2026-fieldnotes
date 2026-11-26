@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="474pt" height="394pt" viewBox="0.00 0.00 474.42 393.92" role="img" aria-labelledby="diagram-title diagram-desc" style="background:#fdfbf9">
+<title id="diagram-title">Who controls each leg of a stablecoin payment?</title><desc id="diagram-desc">Operations reconciles both records. The payment partner confirms fiat credit, and the party responsible under the terms handles any outstanding redemption or payout.</desc><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(12.96 380.96)">
+<title>topic</title>
+
+<g id="edge1" class="edge">
+<title>claim-&gt;token</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M199.46,-322.92C188.2,-314.1 175.07,-303.81 163.27,-294.57" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="164.63,-292.52 157.61,-290.13 161.6,-296.38 164.63,-292.52" />
+</g>
+
+<g id="edge2" class="edge">
+<title>claim-&gt;fiat</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M255.39,-322.92C267,-314.1 280.54,-303.81 292.7,-294.57" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="294.45,-296.32 298.54,-290.13 291.48,-292.41 294.45,-296.32" />
+</g>
+
+<g id="edge3" class="edge">
+<title>token-&gt;hash</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M127.16,-244.92C126.11,-236.9 124.89,-227.67 123.77,-219.11" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="126.19,-218.75 122.85,-212.13 121.33,-219.39 126.19,-218.75" />
+</g>
+
+<g id="edge4" class="edge">
+<title>fiat-&gt;credit</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M327.57,-244.92C327.78,-236.98 328.02,-227.85 328.24,-219.37" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="330.7,-219.19 328.43,-212.13 325.8,-219.06 330.7,-219.19" />
+</g>
+
+<g id="edge5" class="edge">
+<title>hash-&gt;match</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M149.52,-166.92C161.71,-158.02 175.94,-147.62 188.67,-138.32" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="190.2,-140.24 194.4,-134.13 187.3,-136.28 190.2,-140.24" />
+</g>
+
+<g id="edge6" class="edge">
+<title>credit-&gt;match</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M299.19,-166.92C286.89,-158.02 272.53,-147.62 259.67,-138.32" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="260.99,-136.25 253.88,-134.13 258.12,-140.22 260.99,-136.25" />
+</g>
+
+<g id="edge7" class="edge">
+<title>match-&gt;done</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M195.08,-88.99C178.91,-76.97 158.64,-61.9 141.63,-49.25" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="143.07,-47.27 135.99,-45.06 140.15,-51.2 143.07,-47.27" />
+<text text-anchor="middle" x="197" y="-64.2" font-family="DejaVu Sans" font-size="11.00" fill="#514b56">Matched</text>
+</g>
+
+<g id="edge8" class="edge">
+<title>match-&gt;delay</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M252.92,-88.99C269.09,-76.97 289.36,-61.9 306.37,-49.25" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="307.85,-51.2 312.01,-45.06 304.93,-47.27 307.85,-51.2" />
+<text text-anchor="middle" x="324.5" y="-64.2" font-family="DejaVu Sans" font-size="11.00" fill="#514b56">Gap or delay</text>
+</g>
+
+<g id="node1" class="node">
+<title>claim</title>
+<path fill="#302c34" stroke="#302c34" stroke-width="1.3" d="M302.5,-368C302.5,-368 151.5,-368 151.5,-368 145.5,-368 139.5,-362 139.5,-356 139.5,-356 139.5,-335 139.5,-335 139.5,-329 145.5,-323 151.5,-323 151.5,-323 302.5,-323 302.5,-323 308.5,-323 314.5,-329 314.5,-335 314.5,-335 314.5,-356 314.5,-356 314.5,-362 308.5,-368 302.5,-368" />
+<text text-anchor="start" x="165" y="-348" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#ffffff">Holder’s claim</text>
+<text text-anchor="start" x="151.5" y="-335.4" font-family="DejaVu Sans" font-size="12.00" fill="#f2e9f3">Issuer and product terms</text>
+</g>
+
+<g id="node2" class="node">
+<title>token</title>
+<path fill="#ffffff" stroke="#ccc5ce" stroke-width="1.3" d="M205,-290C205,-290 55,-290 55,-290 49,-290 43,-284 43,-278 43,-278 43,-257 43,-257 43,-251 49,-245 55,-245 55,-245 205,-245 205,-245 211,-245 217,-251 217,-257 217,-257 217,-278 217,-278 217,-284 211,-290 205,-290" />
+<text text-anchor="start" x="55" y="-270" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#28242c">Token settlement</text>
+<text text-anchor="start" x="72.5" y="-257.4" font-family="DejaVu Sans" font-size="12.00" fill="#554f58">Wallet or custodian</text>
+</g>
+
+<g id="node3" class="node">
+<title>fiat</title>
+<path fill="#ffffff" stroke="#ccc5ce" stroke-width="1.3" d="M403.5,-290C403.5,-290 250.5,-290 250.5,-290 244.5,-290 238.5,-284 238.5,-278 238.5,-278 238.5,-257 238.5,-257 238.5,-251 244.5,-245 250.5,-245 250.5,-245 403.5,-245 403.5,-245 409.5,-245 415.5,-251 415.5,-257 415.5,-257 415.5,-278 415.5,-278 415.5,-284 409.5,-290 403.5,-290" />
+<text text-anchor="start" x="278.5" y="-270" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#28242c">Fiat payout</text>
+<text text-anchor="start" x="250.5" y="-257.4" font-family="DejaVu Sans" font-size="12.00" fill="#554f58">Bank or payment partner</text>
+</g>
+
+<g id="node4" class="node">
+<title>hash</title>
+<path fill="#ffffff" stroke="#ccc5ce" stroke-width="1.3" d="M203,-212C203,-212 37,-212 37,-212 31,-212 25,-206 25,-200 25,-200 25,-179 25,-179 25,-173 31,-167 37,-167 37,-167 203,-167 203,-167 209,-167 215,-173 215,-179 215,-179 215,-200 215,-200 215,-206 209,-212 203,-212" />
+<text text-anchor="start" x="37" y="-192" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#28242c">Check chain finality</text>
+<text text-anchor="start" x="49" y="-179.4" font-family="DejaVu Sans" font-size="12.00" fill="#554f58">Hash, amount and time</text>
+</g>
+
+<g id="node5" class="node">
+<title>credit</title>
+<path fill="#ffffff" stroke="#ccc5ce" stroke-width="1.3" d="M411.5,-212C411.5,-212 246.5,-212 246.5,-212 240.5,-212 234.5,-206 234.5,-200 234.5,-200 234.5,-179 234.5,-179 234.5,-173 240.5,-167 246.5,-167 246.5,-167 411.5,-167 411.5,-167 417.5,-167 423.5,-173 423.5,-179 423.5,-179 423.5,-200 423.5,-200 423.5,-206 417.5,-212 411.5,-212" />
+<text text-anchor="start" x="246.5" y="-192" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#28242c">Check usable funds</text>
+<text text-anchor="start" x="255" y="-179.4" font-family="DejaVu Sans" font-size="12.00" fill="#554f58">Credit time and currency</text>
+</g>
+
+<g id="node6" class="node">
+<title>match</title>
+<path fill="#fff2c8" stroke="#b79538" stroke-width="1.3" d="M308.5,-134C308.5,-134 139.5,-134 139.5,-134 133.5,-134 127.5,-128 127.5,-122 127.5,-122 127.5,-101 127.5,-101 127.5,-95 133.5,-89 139.5,-89 139.5,-89 308.5,-89 308.5,-89 314.5,-89 320.5,-95 320.5,-101 320.5,-101 320.5,-122 320.5,-122 320.5,-128 314.5,-134 308.5,-134" />
+<text text-anchor="start" x="140.5" y="-114" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#4b381c">Reconcile both legs</text>
+<text text-anchor="start" x="139.5" y="-101.4" font-family="DejaVu Sans" font-size="12.00" fill="#665634">Match transaction to payout</text>
+</g>
+
+<g id="node7" class="node">
+<title>done</title>
+<path fill="#f1e2f4" stroke="#b392bd" stroke-width="1.3" d="M202,-45C202,-45 12,-45 12,-45 6,-45 0,-39 0,-33 0,-33 0,-12 0,-12 0,-6 6,0 12,0 12,0 202,0 202,0 208,0 214,-6 214,-12 214,-12 214,-33 214,-33 214,-39 208,-45 202,-45" />
+<text text-anchor="start" x="36" y="-25" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#49334c">Confirm delivery</text>
+<text text-anchor="start" x="12" y="-12.4" font-family="DejaVu Sans" font-size="12.00" fill="#5a465f">Record when funds were usable</text>
+</g>
+
+<g id="node8" class="node">
+<title>delay</title>
+<path fill="#ffebe3" stroke="#d39883" stroke-width="1.3" d="M436.5,-45C436.5,-45 245.5,-45 245.5,-45 239.5,-45 233.5,-39 233.5,-33 233.5,-33 233.5,-12 233.5,-12 233.5,-6 239.5,0 245.5,0 245.5,0 436.5,0 436.5,0 442.5,0 448.5,-6 448.5,-12 448.5,-12 448.5,-33 448.5,-33 448.5,-39 442.5,-45 436.5,-45" />
+<text text-anchor="start" x="246" y="-25" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#583a28">Resolve the exception</text>
+<text text-anchor="start" x="245.5" y="-12.4" font-family="DejaVu Sans" font-size="12.00" fill="#6e513d">Assign owner and inform holder</text>
+</g>
+</g>
+</svg>

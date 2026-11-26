@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="529pt" height="472pt" viewBox="0.00 0.00 528.92 471.92" role="img" aria-labelledby="diagram-title diagram-desc" style="background:#fdfbf9">
+<title id="diagram-title">Can the institution reproduce the control and verify the repair?</title><desc id="diagram-desc">The reviewer needs a defined population and the control version that applied on the day. The remediation owner supplies the fix, and a separate reviewer tests the closure evidence.</desc><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(12.96 458.96)">
+<title>topic</title>
+
+<g id="edge1" class="edge">
+<title>scope-&gt;policy</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M180,-400.92C166.05,-391.94 149.74,-381.44 135.2,-372.07" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="136.29,-369.86 129.08,-368.13 133.64,-373.98 136.29,-369.86" />
+</g>
+
+<g id="edge2" class="edge">
+<title>scope-&gt;logs</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M247.28,-400.92C261.35,-391.94 277.8,-381.44 292.47,-372.07" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="294.05,-373.96 298.63,-368.13 291.41,-369.83 294.05,-373.96" />
+</g>
+
+<g id="edge3" class="edge">
+<title>policy-&gt;sample</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M129,-322.92C142.95,-313.94 159.26,-303.44 173.8,-294.07" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="175.36,-295.98 179.92,-290.13 172.71,-291.86 175.36,-295.98" />
+</g>
+
+<g id="edge4" class="edge">
+<title>logs-&gt;sample</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M298.72,-322.92C284.65,-313.94 268.2,-303.44 253.53,-294.07" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="254.59,-291.83 247.37,-290.13 251.95,-295.96 254.59,-291.83" />
+</g>
+
+<g id="edge5" class="edge">
+<title>sample-&gt;ok</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M203.61,-244.99C198.42,-233.7 191.99,-219.72 186.41,-207.59" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="188.56,-206.4 183.41,-201.06 184.11,-208.44 188.56,-206.4" />
+<text text-anchor="middle" x="225" y="-220.2" font-family="DejaVu Sans" font-size="11.00" fill="#514b56">Supported</text>
+</g>
+
+<g id="edge6" class="edge">
+<title>sample-&gt;gap</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M258.24,-244.99C284.02,-232.6 316.52,-216.98 343.32,-204.1" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="344.4,-206.3 349.65,-201.06 342.28,-201.88 344.4,-206.3" />
+<text text-anchor="middle" x="341.5" y="-220.2" font-family="DejaVu Sans" font-size="11.00" fill="#514b56">Exception</text>
+</g>
+
+<g id="edge7" class="edge">
+<title>gap-&gt;fix</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M394.5,-155.92C394.5,-147.98 394.5,-138.85 394.5,-130.37" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="396.95,-130.13 394.5,-123.13 392.05,-130.13 396.95,-130.13" />
+</g>
+
+<g id="edge8" class="edge">
+<title>fix-&gt;close</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M394.5,-77.92C394.5,-69.98 394.5,-60.85 394.5,-52.37" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="396.95,-52.13 394.5,-45.13 392.05,-52.13 396.95,-52.13" />
+</g>
+
+<g id="node1" class="node">
+<title>scope</title>
+<path fill="#302c34" stroke="#302c34" stroke-width="1.3" d="M304,-446C304,-446 123,-446 123,-446 117,-446 111,-440 111,-434 111,-434 111,-413 111,-413 111,-407 117,-401 123,-401 123,-401 304,-401 304,-401 310,-401 316,-407 316,-413 316,-413 316,-434 316,-434 316,-440 310,-446 304,-446" />
+<text text-anchor="start" x="123" y="-426" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#ffffff">Define the obligation</text>
+<text text-anchor="start" x="124" y="-413.4" font-family="DejaVu Sans" font-size="12.00" fill="#f2e9f3">Owner, period and population</text>
+</g>
+
+<g id="node2" class="node">
+<title>policy</title>
+<path fill="#ffffff" stroke="#ccc5ce" stroke-width="1.3" d="M179,-368C179,-368 12,-368 12,-368 6,-368 0,-362 0,-356 0,-356 0,-335 0,-335 0,-329 6,-323 12,-323 12,-323 179,-323 179,-323 185,-323 191,-329 191,-335 191,-335 191,-356 191,-356 191,-362 185,-368 179,-368" />
+<text text-anchor="start" x="12" y="-348" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#28242c">Expected operation</text>
+<text text-anchor="start" x="14" y="-335.4" font-family="DejaVu Sans" font-size="12.00" fill="#554f58">Procedure and rule in force</text>
+</g>
+
+<g id="node3" class="node">
+<title>logs</title>
+<path fill="#ffffff" stroke="#ccc5ce" stroke-width="1.3" d="M442.5,-368C442.5,-368 222.5,-368 222.5,-368 216.5,-368 210.5,-362 210.5,-356 210.5,-356 210.5,-335 210.5,-335 210.5,-329 216.5,-323 222.5,-323 222.5,-323 442.5,-323 442.5,-323 448.5,-323 454.5,-329 454.5,-335 454.5,-335 454.5,-356 454.5,-356 454.5,-362 448.5,-368 442.5,-368" />
+<text text-anchor="start" x="248" y="-348" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#28242c">Observed operation</text>
+<text text-anchor="start" x="222.5" y="-335.4" font-family="DejaVu Sans" font-size="12.00" fill="#554f58">Transactions, actions and exceptions</text>
+</g>
+
+<g id="node4" class="node">
+<title>sample</title>
+<path fill="#fff2c8" stroke="#b79538" stroke-width="1.3" d="M309,-290C309,-290 118,-290 118,-290 112,-290 106,-284 106,-278 106,-278 106,-257 106,-257 106,-251 112,-245 118,-245 118,-245 309,-245 309,-245 315,-245 321,-251 321,-257 321,-257 321,-278 321,-278 321,-284 315,-290 309,-290" />
+<text text-anchor="start" x="118" y="-270" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#4b381c">Reperform the sample</text>
+<text text-anchor="start" x="123" y="-257.4" font-family="DejaVu Sans" font-size="12.00" fill="#665634">Compare expected and actual</text>
+</g>
+
+<g id="node5" class="node">
+<title>ok</title>
+<path fill="#f1e2f4" stroke="#b392bd" stroke-width="1.3" d="M259.5,-201C259.5,-201 87.5,-201 87.5,-201 81.5,-201 75.5,-195 75.5,-189 75.5,-189 75.5,-168 75.5,-168 75.5,-162 81.5,-156 87.5,-156 87.5,-156 259.5,-156 259.5,-156 265.5,-156 271.5,-162 271.5,-168 271.5,-168 271.5,-189 271.5,-189 271.5,-195 265.5,-201 259.5,-201" />
+<text text-anchor="start" x="88" y="-181" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#49334c">Retain the evidence</text>
+<text text-anchor="start" x="87.5" y="-168.4" font-family="DejaVu Sans" font-size="12.00" fill="#5a465f">Record scope and limitations</text>
+</g>
+
+<g id="node6" class="node">
+<title>gap</title>
+<path fill="#ffebe3" stroke="#d39883" stroke-width="1.3" d="M486.5,-201C486.5,-201 302.5,-201 302.5,-201 296.5,-201 290.5,-195 290.5,-189 290.5,-189 290.5,-168 290.5,-168 290.5,-162 296.5,-156 302.5,-156 302.5,-156 486.5,-156 486.5,-156 492.5,-156 498.5,-162 498.5,-168 498.5,-168 498.5,-189 498.5,-189 498.5,-195 492.5,-201 486.5,-201" />
+<text text-anchor="start" x="321.5" y="-181" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#583a28">Scope the failure</text>
+<text text-anchor="start" x="302.5" y="-168.4" font-family="DejaVu Sans" font-size="12.00" fill="#6e513d">Root cause and interim control</text>
+</g>
+
+<g id="node7" class="node">
+<title>fix</title>
+<path fill="#ffffff" stroke="#ccc5ce" stroke-width="1.3" d="M475,-123C475,-123 314,-123 314,-123 308,-123 302,-117 302,-111 302,-111 302,-90 302,-90 302,-84 308,-78 314,-78 314,-78 475,-78 475,-78 481,-78 487,-84 487,-90 487,-90 487,-111 487,-111 487,-117 481,-123 475,-123" />
+<text text-anchor="start" x="320" y="-103" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#28242c">Repair and retest</text>
+<text text-anchor="start" x="314" y="-90.4" font-family="DejaVu Sans" font-size="12.00" fill="#554f58">Backfill plus a later sample</text>
+</g>
+
+<g id="node8" class="node">
+<title>close</title>
+<path fill="#f1e2f4" stroke="#b392bd" stroke-width="1.3" d="M491,-45C491,-45 298,-45 298,-45 292,-45 286,-39 286,-33 286,-33 286,-12 286,-12 286,-6 292,0 298,0 298,0 491,0 491,0 497,0 503,-6 503,-12 503,-12 503,-33 503,-33 503,-39 497,-45 491,-45" />
+<text text-anchor="start" x="331" y="-25" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#49334c">Decide closure</text>
+<text text-anchor="start" x="298" y="-12.4" font-family="DejaVu Sans" font-size="12.00" fill="#5a465f">Independent review and sign-off</text>
+</g>
+</g>
+</svg>

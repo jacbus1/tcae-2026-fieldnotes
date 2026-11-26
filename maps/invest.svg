@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="475pt" height="405pt" viewBox="0.00 0.00 474.92 404.92" role="img" aria-labelledby="diagram-title diagram-desc" style="background:#fdfbf9">
+<title id="diagram-title">When should an alert become a network investigation?</title><desc id="diagram-desc">A common identifier supports a hypothesis. The investigator decides how far the evidence justifies expanding it. Reporting and control remediation have separate owners.</desc><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(12.96 391.96)">
+<title>topic</title>
+
+<g id="edge1" class="edge">
+<title>signal-&gt;context</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M220.5,-333.92C220.5,-325.98 220.5,-316.85 220.5,-308.37" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="222.95,-308.13 220.5,-301.13 218.05,-308.13 222.95,-308.13" />
+</g>
+
+<g id="edge2" class="edge">
+<title>context-&gt;test</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M220.5,-255.92C220.5,-247.98 220.5,-238.85 220.5,-230.37" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="222.95,-230.13 220.5,-223.13 218.05,-230.13 222.95,-230.13" />
+</g>
+
+<g id="edge3" class="edge">
+<title>test-&gt;weak</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M193.06,-177.99C177.85,-166.07 158.83,-151.16 142.77,-138.58" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="144.03,-136.45 137.01,-134.06 141.01,-140.31 144.03,-136.45" />
+<text text-anchor="middle" x="199.5" y="-153.2" font-family="DejaVu Sans" font-size="11.00" fill="#514b56">Explained</text>
+</g>
+
+<g id="edge4" class="edge">
+<title>test-&gt;strong</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M248.19,-177.99C263.53,-166.07 282.73,-151.16 298.93,-138.58" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="300.72,-140.29 304.74,-134.06 297.71,-136.42 300.72,-140.29" />
+<text text-anchor="middle" x="319" y="-153.2" font-family="DejaVu Sans" font-size="11.00" fill="#514b56">Corroborated</text>
+</g>
+
+<g id="edge5" class="edge">
+<title>weak-&gt;report</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M109.5,-88.99C109.5,-77.91 109.5,-64.24 109.5,-52.26" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="111.95,-52.06 109.5,-45.06 107.05,-52.06 111.95,-52.06" />
+</g>
+
+<g id="edge6" class="edge">
+<title>strong-&gt;report</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M277.38,-88.99C245.21,-76.45 204.56,-60.58 171.31,-47.61" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="172.17,-45.32 164.76,-45.06 170.39,-49.89 172.17,-45.32" />
+</g>
+
+<g id="edge7" class="edge">
+<title>strong-&gt;defect</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M335.22,-88.99C336.62,-77.91 338.35,-64.24 339.86,-52.26" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="342.33,-52.31 340.77,-45.06 337.47,-51.7 342.33,-52.31" />
+<text text-anchor="middle" x="377" y="-64.2" font-family="DejaVu Sans" font-size="11.00" fill="#514b56">Recurring gap</text>
+</g>
+
+<g id="node1" class="node">
+<title>signal</title>
+<path fill="#302c34" stroke="#302c34" stroke-width="1.3" d="M308.5,-379C308.5,-379 132.5,-379 132.5,-379 126.5,-379 120.5,-373 120.5,-367 120.5,-367 120.5,-346 120.5,-346 120.5,-340 126.5,-334 132.5,-334 132.5,-334 308.5,-334 308.5,-334 314.5,-334 320.5,-340 320.5,-346 320.5,-346 320.5,-367 320.5,-367 320.5,-373 314.5,-379 308.5,-379" />
+<text text-anchor="start" x="132.5" y="-359" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#ffffff">Shared counterparty</text>
+<text text-anchor="start" x="158" y="-346.4" font-family="DejaVu Sans" font-size="12.00" fill="#f2e9f3">Alert or case referral</text>
+</g>
+
+<g id="node2" class="node">
+<title>context</title>
+<path fill="#ffffff" stroke="#ccc5ce" stroke-width="1.3" d="M319,-301C319,-301 122,-301 122,-301 116,-301 110,-295 110,-289 110,-289 110,-268 110,-268 110,-262 116,-256 122,-256 122,-256 319,-256 319,-256 325,-256 331,-262 331,-268 331,-268 331,-289 331,-289 331,-295 325,-301 319,-301" />
+<text text-anchor="start" x="122.5" y="-281" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#28242c">Reconstruct fund flows</text>
+<text text-anchor="start" x="122" y="-268.4" font-family="DejaVu Sans" font-size="12.00" fill="#554f58">Who paid whom, when and why?</text>
+</g>
+
+<g id="node3" class="node">
+<title>test</title>
+<path fill="#fff2c8" stroke="#b79538" stroke-width="1.3" d="M316,-223C316,-223 125,-223 125,-223 119,-223 113,-217 113,-211 113,-211 113,-190 113,-190 113,-184 119,-178 125,-178 125,-178 316,-178 316,-178 322,-178 328,-184 328,-190 328,-190 328,-211 328,-211 328,-217 322,-223 316,-223" />
+<text text-anchor="start" x="136" y="-203" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#4b381c">Test the connection</text>
+<text text-anchor="start" x="125" y="-190.4" font-family="DejaVu Sans" font-size="12.00" fill="#665634">Ownership, timing and direction</text>
+</g>
+
+<g id="node4" class="node">
+<title>weak</title>
+<path fill="#ffffff" stroke="#ccc5ce" stroke-width="1.3" d="M203,-134C203,-134 16,-134 16,-134 10,-134 4,-128 4,-122 4,-122 4,-101 4,-101 4,-95 10,-89 16,-89 16,-89 203,-89 203,-89 209,-89 215,-95 215,-101 215,-101 215,-122 215,-122 215,-128 209,-134 203,-134" />
+<text text-anchor="start" x="20" y="-114" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#28242c">Ordinary explanation</text>
+<text text-anchor="start" x="16" y="-101.4" font-family="DejaVu Sans" font-size="12.00" fill="#554f58">Document and review the case</text>
+</g>
+
+<g id="node5" class="node">
+<title>strong</title>
+<path fill="#ffffff" stroke="#ccc5ce" stroke-width="1.3" d="M418.5,-134C418.5,-134 246.5,-134 246.5,-134 240.5,-134 234.5,-128 234.5,-122 234.5,-122 234.5,-101 234.5,-101 234.5,-95 240.5,-89 246.5,-89 246.5,-89 418.5,-89 418.5,-89 424.5,-89 430.5,-95 430.5,-101 430.5,-101 430.5,-122 430.5,-122 430.5,-128 424.5,-134 418.5,-134" />
+<text text-anchor="start" x="257" y="-114" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#28242c">Corroborated link</text>
+<text text-anchor="start" x="246.5" y="-101.4" font-family="DejaVu Sans" font-size="12.00" fill="#554f58">Expand the network analysis</text>
+</g>
+
+<g id="node6" class="node">
+<title>report</title>
+<path fill="#f1e2f4" stroke="#b392bd" stroke-width="1.3" d="M207,-45C207,-45 12,-45 12,-45 6,-45 0,-39 0,-33 0,-33 0,-12 0,-12 0,-6 6,0 12,0 12,0 207,0 207,0 213,0 219,-6 219,-12 219,-12 219,-33 219,-33 219,-39 213,-45 207,-45" />
+<text text-anchor="start" x="39.5" y="-25" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#49334c">Case disposition</text>
+<text text-anchor="start" x="12" y="-12.4" font-family="DejaVu Sans" font-size="12.00" fill="#5a465f">Assess reporting and record why</text>
+</g>
+
+<g id="node7" class="node">
+<title>defect</title>
+<path fill="#ffebe3" stroke="#d39883" stroke-width="1.3" d="M437,-45C437,-45 250,-45 250,-45 244,-45 238,-39 238,-33 238,-33 238,-12 238,-12 238,-6 244,0 250,0 250,0 437,0 437,0 443,0 449,-6 449,-12 449,-12 449,-33 449,-33 449,-39 443,-45 437,-45" />
+<text text-anchor="start" x="272" y="-25" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#583a28">Monitoring issue</text>
+<text text-anchor="start" x="250" y="-12.4" font-family="DejaVu Sans" font-size="12.00" fill="#6e513d">Scope and test any control gap</text>
+</g>
+</g>
+</svg>

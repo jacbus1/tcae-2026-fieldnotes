@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="554pt" height="379pt" viewBox="0.00 0.00 554.42 378.92" role="img" aria-labelledby="diagram-title diagram-desc" style="background:#fdfbf9">
+<title id="diagram-title">How do fraud response and AML review work in parallel?</title><desc id="diagram-desc">Customer protection and compliance reporting can proceed at the same time. Each team records its authority and decisions, then reconciles its outcome with the other team.</desc><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(12.96 365.96)">
+<title>topic</title>
+
+<g id="edge1" class="edge">
+<title>lead-&gt;fraud</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M237.37,-307.81C221.33,-299.02 202.69,-288.82 186.05,-279.71" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="186.85,-277.36 179.54,-276.14 184.5,-281.65 186.85,-277.36" />
+</g>
+
+<g id="edge2" class="edge">
+<title>lead-&gt;aml</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M316.63,-307.81C332.67,-299.02 351.31,-288.82 367.95,-279.71" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="369.5,-281.65 374.46,-276.14 367.15,-277.36 369.5,-281.65" />
+</g>
+
+<g id="edge3" class="edge">
+<title>fraud-&gt;protect</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M143.18,-230.81C144.3,-223.19 145.57,-214.51 146.76,-206.39" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="149.23,-206.43 147.83,-199.14 144.39,-205.71 149.23,-206.43" />
+</g>
+
+<g id="edge4" class="edge">
+<title>aml-&gt;intel</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M412.26,-230.81C411.66,-223.19 410.96,-214.51 410.31,-206.39" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="412.73,-205.93 409.73,-199.14 407.85,-206.32 412.73,-205.93" />
+</g>
+
+<g id="edge5" class="edge">
+<title>protect-&gt;rec</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M187.16,-153.81C201.67,-145.1 218.5,-135 233.58,-125.95" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="235.18,-127.85 239.93,-122.14 232.66,-123.65 235.18,-127.85" />
+</g>
+
+<g id="edge6" class="edge">
+<title>intel-&gt;rec</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M369.82,-153.81C354.36,-145.02 336.41,-134.82 320.37,-125.71" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="321.39,-123.47 314.09,-122.14 318.97,-127.73 321.39,-123.47" />
+</g>
+
+<g id="edge7" class="edge">
+<title>rec-&gt;follow</title>
+<path fill="none" stroke="#756e79" stroke-width="1.35" d="M276,-76.81C276,-69.19 276,-60.51 276,-52.39" />
+<polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="278.45,-52.14 276,-45.14 273.55,-52.14 278.45,-52.14" />
+</g>
+
+<g id="node1" class="node">
+<title>lead</title>
+<path fill="#302c34" stroke="#302c34" stroke-width="1.3" d="M376,-353C376,-353 178,-353 178,-353 172,-353 166,-347 166,-341 166,-341 166,-320 166,-320 166,-314 172,-308 178,-308 178,-308 376,-308 376,-308 382,-308 388,-314 388,-320 388,-320 388,-341 388,-341 388,-347 382,-353 376,-353" />
+<text text-anchor="start" x="178" y="-333" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#ffffff">Receive a credible lead</text>
+<text text-anchor="start" x="179" y="-320.4" font-family="DejaVu Sans" font-size="12.00" fill="#f2e9f3">Verify source, time and authority</text>
+</g>
+
+<g id="node2" class="node">
+<title>fraud</title>
+<path fill="#ffffff" stroke="#ccc5ce" stroke-width="1.3" d="M268,-276C268,-276 12,-276 12,-276 6,-276 0,-270 0,-264 0,-264 0,-243 0,-243 0,-237 6,-231 12,-231 12,-231 268,-231 268,-231 274,-231 280,-237 280,-243 280,-243 280,-264 280,-264 280,-270 274,-276 268,-276" />
+<text text-anchor="start" x="74.5" y="-256" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#28242c">Fraud response</text>
+<text text-anchor="start" x="12" y="-243.4" font-family="DejaVu Sans" font-size="12.00" fill="#554f58">Contact customer through trusted channel</text>
+</g>
+
+<g id="node3" class="node">
+<title>aml</title>
+<path fill="#ffffff" stroke="#ccc5ce" stroke-width="1.3" d="M516.5,-276C516.5,-276 311.5,-276 311.5,-276 305.5,-276 299.5,-270 299.5,-264 299.5,-264 299.5,-243 299.5,-243 299.5,-237 305.5,-231 311.5,-231 311.5,-231 516.5,-231 516.5,-231 522.5,-231 528.5,-237 528.5,-243 528.5,-243 528.5,-264 528.5,-264 528.5,-270 522.5,-276 516.5,-276" />
+<text text-anchor="start" x="364.5" y="-256" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#28242c">AML review</text>
+<text text-anchor="start" x="311.5" y="-243.4" font-family="DejaVu Sans" font-size="12.00" fill="#554f58">Assess activity and counterparties</text>
+</g>
+
+<g id="node4" class="node">
+<title>protect</title>
+<path fill="#ffffff" stroke="#ccc5ce" stroke-width="1.3" d="M262.5,-199C262.5,-199 39.5,-199 39.5,-199 33.5,-199 27.5,-193 27.5,-187 27.5,-187 27.5,-166 27.5,-166 27.5,-160 33.5,-154 39.5,-154 39.5,-154 262.5,-154 262.5,-154 268.5,-154 274.5,-160 274.5,-166 274.5,-166 274.5,-187 274.5,-187 274.5,-193 268.5,-199 262.5,-199" />
+<text text-anchor="start" x="58.5" y="-179" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#28242c">Protect or seek recall</text>
+<text text-anchor="start" x="39.5" y="-166.4" font-family="DejaVu Sans" font-size="12.00" fill="#554f58">Record authority and payment status</text>
+</g>
+
+<g id="node5" class="node">
+<title>intel</title>
+<path fill="#ffffff" stroke="#ccc5ce" stroke-width="1.3" d="M504.5,-199C504.5,-199 311.5,-199 311.5,-199 305.5,-199 299.5,-193 299.5,-187 299.5,-187 299.5,-166 299.5,-166 299.5,-160 305.5,-154 311.5,-154 311.5,-154 504.5,-154 504.5,-154 510.5,-154 516.5,-160 516.5,-166 516.5,-166 516.5,-187 516.5,-187 516.5,-193 510.5,-199 504.5,-199" />
+<text text-anchor="start" x="335.5" y="-179" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#28242c">Decide reporting</text>
+<text text-anchor="start" x="311.5" y="-166.4" font-family="DejaVu Sans" font-size="12.00" fill="#554f58">Preserve evidence and rationale</text>
+</g>
+
+<g id="node6" class="node">
+<title>rec</title>
+<path fill="#fff2c8" stroke="#b79538" stroke-width="1.3" d="M380.5,-122C380.5,-122 171.5,-122 171.5,-122 165.5,-122 159.5,-116 159.5,-110 159.5,-110 159.5,-89 159.5,-89 159.5,-83 165.5,-77 171.5,-77 171.5,-77 380.5,-77 380.5,-77 386.5,-77 392.5,-83 392.5,-89 392.5,-89 392.5,-110 392.5,-110 392.5,-116 386.5,-122 380.5,-122" />
+<text text-anchor="start" x="190.5" y="-102" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#4b381c">Reconcile outcomes</text>
+<text text-anchor="start" x="171.5" y="-89.4" font-family="DejaVu Sans" font-size="12.00" fill="#665634">Prevented, recovered and returned</text>
+</g>
+
+<g id="node7" class="node">
+<title>follow</title>
+<path fill="#f1e2f4" stroke="#b392bd" stroke-width="1.3" d="M385,-45C385,-45 167,-45 167,-45 161,-45 155,-39 155,-33 155,-33 155,-12 155,-12 155,-6 161,0 167,0 167,0 385,0 385,0 391,0 397,-6 397,-12 397,-12 397,-33 397,-33 397,-39 391,-45 385,-45" />
+<text text-anchor="start" x="235" y="-25" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#49334c">Follow up</text>
+<text text-anchor="start" x="167" y="-12.4" font-family="DejaVu Sans" font-size="12.00" fill="#5a465f">Victim support and control feedback</text>
+</g>
+</g>
+</svg>

@@ -137,13 +137,14 @@ body.diagram-expanded{overflow:hidden}
 .author-credit{display:grid;gap:3px;font-size:14px;line-height:1.45;letter-spacing:normal}
 .sidefoot .author-credit strong{color:#fff}
 .credit-note{font-size:13px}
-.credit-link{justify-self:start;margin-top:4px;text-decoration:underline;text-underline-offset:3px}
-.sidefoot .credit-link{color:#f0dcf2}
+.credit-link{justify-self:start;margin-top:4px}
+.credit-link,.credit-note a{text-decoration:underline;text-underline-offset:3px}
+.sidefoot .credit-link,.sidefoot .credit-note a{color:#f0dcf2}
 .footer .author-credit{display:none}
 @media(max-width:720px){
   .sidefoot .author-credit{display:none}
   .footer .author-credit{display:grid;flex-basis:100%;color:#4f4652}
-  .footer .credit-link{color:#5e3d69}
+  .footer .credit-link,.footer .credit-note a{color:#5e3d69}
 }
 .side .navlink:hover,.subnav a:hover{background:#413a44}.side .navlink.active{background:#453b47;box-shadow:inset 3px 0 var(--gold);color:#fff}
 .side .subnav a:nth-of-type(3n+1) i{background:var(--coral)}.side .subnav a:nth-of-type(3n+2) i{background:var(--gold)}.side .subnav a:nth-of-type(3n) i{background:var(--lilac)}

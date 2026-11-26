@@ -23,4 +23,49 @@
  function search(){if(!dialog.open)dialog.showModal();input.focus();input.select();results()}
  el('find').addEventListener('click',search);el('close').addEventListener('click',()=>dialog.close());input.addEventListener('input',()=>{limit=25;results()});dialog.addEventListener('click',e=>{if(e.target===dialog||e.target.closest('a'))dialog.close()});
  document.addEventListener('keydown',e=>{if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='k'){e.preventDefault();search()}if(e.key==='Escape')toggleMenu(false)});
+
+ const viewer=el('diagram-viewer');
+ if (!viewer || typeof viewer.showModal!=='function') return;
+ const preview=document.querySelector('.diagram-canvas');
+ const diagram=preview.querySelector('img');
+ const frame=viewer.querySelector('.diagram-viewer-frame');
+ const image=new Image();
+ const out=viewer.querySelector('[data-diagram-zoom="out"]');
+ const fit=viewer.querySelector('[data-diagram-zoom="fit"]');
+ const zoomIn=viewer.querySelector('[data-diagram-zoom="in"]');
+ const percentage=viewer.querySelector('output');
+ const scales=[1,1.5,2,3];
+ let step=0;
+ image.alt=diagram.alt;
+ frame.append(image);
+
+ function zoom(next, fromTop=false) {
+  const ratio=scales[next]/scales[step];
+  const x=(frame.scrollLeft+frame.clientWidth/2)*ratio-frame.clientWidth/2;
+  const y=(frame.scrollTop+frame.clientHeight/2)*ratio-frame.clientHeight/2;
+  step=next;
+  frame.style.setProperty('--diagram-scale',scales[step]);
+  percentage.value=Math.round(scales[step]*100)+'%';
+  out.disabled=step===0;
+  fit.disabled=step===0;
+  zoomIn.disabled=step===scales.length-1;
+  if(fromTop)frame.scrollTo((frame.scrollWidth-frame.clientWidth)/2,0);
+  else frame.scrollTo(x,y);
+ }
+
+ preview.addEventListener('click',event=>{
+  if(event.defaultPrevented || event.button!==0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey)return;
+  event.preventDefault();
+  image.src=diagram.currentSrc||diagram.src;
+  viewer.showModal();
+  document.body.classList.add('diagram-expanded');
+  zoom(window.matchMedia('(max-width: 760px)').matches?1:0,true);
+ });
+ viewer.addEventListener('close',()=>{
+  document.body.classList.remove('diagram-expanded');
+  preview.focus({preventScroll:true});
+ });
+ out.addEventListener('click',()=>zoom(Math.max(0,step-1)));
+ fit.addEventListener('click',()=>zoom(0,true));
+ zoomIn.addEventListener('click',()=>zoom(Math.min(scales.length-1,step+1)));
 })();

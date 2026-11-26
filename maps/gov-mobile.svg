@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="304" data-layout="mobile" height="823" viewBox="0 0 304 823" role="img" aria-labelledby="diagram-title diagram-desc" style="background:#fdfbf9">
+  <title id="diagram-title">Which decision addresses the cause of a control gap?</title><desc id="diagram-desc">Management compares options against exposure and time. The board or delegated authority records its decision and the conditions that would require another review.</desc><defs>
+    <marker id="arrowhead" markerWidth="7" markerHeight="7" viewBox="0 0 7 7" refX="7" refY="3.5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0 0 L7 3.5 L0 7 Z" fill="#69616d" />
+    </marker>
+  </defs>
+  <g class="edges">
+    <path class="edge" data-from="kri" data-to="cause" d="M152.0 90 V124" fill="none" stroke="#69616d" stroke-width="1.5" stroke-linejoin="round" marker-end="url(#arrowhead)" />
+    <path class="edge" data-from="cause" data-to="team" d="M152.0 204 V238" fill="none" stroke="#69616d" stroke-width="1.5" stroke-linejoin="round" marker-end="url(#arrowhead)" />
+    <path class="edge" data-from="cause" data-to="data" d="M270 159.5 H287 V392.0 H270" fill="none" stroke="#69616d" stroke-width="1.5" stroke-linejoin="round" marker-end="url(#arrowhead)" />
+    <path class="edge" data-from="cause" data-to="rule" d="M270 168.5 H296 V506.0 H270" fill="none" stroke="#69616d" stroke-width="1.5" stroke-linejoin="round" marker-end="url(#arrowhead)" />
+    <path class="edge" data-from="team" data-to="decide" d="M34 278.0 H17 V626.0 H34" fill="none" stroke="#69616d" stroke-width="1.5" stroke-linejoin="round" marker-end="url(#arrowhead)" />
+    <path class="edge" data-from="data" data-to="decide" d="M34 392.0 H25 V635.0 H34" fill="none" stroke="#69616d" stroke-width="1.5" stroke-linejoin="round" marker-end="url(#arrowhead)" />
+    <path class="edge" data-from="rule" data-to="decide" d="M152.0 546 V580" fill="none" stroke="#69616d" stroke-width="1.5" stroke-linejoin="round" marker-end="url(#arrowhead)" />
+    <path class="edge" data-from="decide" data-to="track" d="M152.0 681 V715" fill="none" stroke="#69616d" stroke-width="1.5" stroke-linejoin="round" marker-end="url(#arrowhead)" />
+    <path class="edge" data-from="track" data-to="cause" d="M37 795 V806 H8 V164.0 H34" fill="none" stroke="#7c5a29" stroke-width="1.5" stroke-linejoin="round" marker-end="url(#arrowhead)" stroke-dasharray="5 3" />
+  </g>
+  <g class="edge-labels">
+    <text x="41" y="806" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="13" font-weight="600" fill="#514b56" stroke="#fdfbf9" stroke-width="3" paint-order="stroke">Risk persists</text>
+  </g>
+  <g class="nodes">
+    <g class="node" data-node="kri">
+      <rect x="34" y="10" width="236" height="80" rx="12" fill="#302c34" stroke="#302c34" stroke-width="1.3" />
+      <text x="152.0" y="30.5" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#ffffff">Exposure signal</text>
+      <text x="152.0" y="53.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#f2e9f3">Backlog, missed coverage or</text>
+      <text x="152.0" y="71.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#f2e9f3">harm</text>
+    </g>
+    <g class="node" data-node="cause">
+      <rect x="34" y="124" width="236" height="80" rx="12" fill="#fff2c8" stroke="#b79538" stroke-width="1.3" />
+      <text x="152.0" y="144.5" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#4b381c">Establish the cause</text>
+      <text x="152.0" y="167.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#665634">Population, duration and</text>
+      <text x="152.0" y="185.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#665634">uncertainty</text>
+    </g>
+    <g class="node" data-node="team">
+      <rect x="34" y="238" width="236" height="80" rx="12" fill="#ffffff" stroke="#ccc5ce" stroke-width="1.3" />
+      <text x="152.0" y="258.5" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#28242c">Capacity constraint</text>
+      <text x="152.0" y="281.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#554f58">Staffing and priority</text>
+      <text x="152.0" y="299.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#554f58">coverage</text>
+    </g>
+    <g class="node" data-node="data">
+      <rect x="34" y="352" width="236" height="80" rx="12" fill="#ffffff" stroke="#ccc5ce" stroke-width="1.3" />
+      <text x="152.0" y="372.5" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#28242c">Incomplete intake</text>
+      <text x="152.0" y="395.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#554f58">Reconcile and repair the</text>
+      <text x="152.0" y="413.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#554f58">feed</text>
+    </g>
+    <g class="node" data-node="rule">
+      <rect x="34" y="466" width="236" height="80" rx="12" fill="#ffffff" stroke="#ccc5ce" stroke-width="1.3" />
+      <text x="152.0" y="486.5" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#28242c">Unproductive rules</text>
+      <text x="152.0" y="509.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#554f58">Tune and independently</text>
+      <text x="152.0" y="527.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#554f58">validate</text>
+    </g>
+    <g class="node" data-node="decide">
+      <rect x="34" y="580" width="236" height="101" rx="12" fill="#fff2c8" stroke="#b79538" stroke-width="1.3" />
+      <text x="152.0" y="600.5" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#4b381c">Decide resources and</text>
+      <text x="152.0" y="621.5" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#4b381c">risk</text>
+      <text x="152.0" y="644.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#665634">Options, rationale and risk</text>
+      <text x="152.0" y="662.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#665634">owner</text>
+    </g>
+    <g class="node" data-node="track">
+      <rect x="34" y="715" width="236" height="80" rx="12" fill="#f1e2f4" stroke="#b392bd" stroke-width="1.3" />
+      <text x="152.0" y="735.5" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#49334c">Verify the outcome</text>
+      <text x="152.0" y="758.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#5a465f">Interim control, retest and</text>
+      <text x="152.0" y="776.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#5a465f">review date</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="304" data-layout="mobile" height="818" viewBox="0 0 304 818" role="img" aria-labelledby="diagram-title diagram-desc" style="background:#fdfbf9">
+  <title id="diagram-title">Can the institution reproduce the control and verify the repair?</title><desc id="diagram-desc">The reviewer needs a defined population and the control version that applied on the day. The remediation owner supplies the fix, and a separate reviewer tests the closure evidence.</desc><defs>
+    <marker id="arrowhead" markerWidth="7" markerHeight="7" viewBox="0 0 7 7" refX="7" refY="3.5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0 0 L7 3.5 L0 7 Z" fill="#69616d" />
+    </marker>
+  </defs>
+  <g class="edges">
+    <path class="edge" data-from="scope" data-to="policy" d="M152.0 72 V106" fill="none" stroke="#69616d" stroke-width="1.5" stroke-linejoin="round" marker-end="url(#arrowhead)" />
+    <path class="edge" data-from="scope" data-to="logs" d="M34 41.0 H8 V242.0 H34" fill="none" stroke="#69616d" stroke-width="1.5" stroke-linejoin="round" marker-end="url(#arrowhead)" />
+    <path class="edge" data-from="policy" data-to="sample" d="M270 137.0 H296 V347.0 H270" fill="none" stroke="#69616d" stroke-width="1.5" stroke-linejoin="round" marker-end="url(#arrowhead)" />
+    <path class="edge" data-from="logs" data-to="sample" d="M152.0 282 V316" fill="none" stroke="#69616d" stroke-width="1.5" stroke-linejoin="round" marker-end="url(#arrowhead)" />
+    <path class="edge" data-from="sample" data-to="ok" d="M152.0 378 V422" fill="none" stroke="#69616d" stroke-width="1.5" stroke-linejoin="round" marker-end="url(#arrowhead)" />
+    <path class="edge" data-from="sample" data-to="gap" d="M37 378 V389 H8 V558.0 H34" fill="none" stroke="#69616d" stroke-width="1.5" stroke-linejoin="round" marker-end="url(#arrowhead)" />
+    <path class="edge" data-from="gap" data-to="fix" d="M152.0 598 V632" fill="none" stroke="#69616d" stroke-width="1.5" stroke-linejoin="round" marker-end="url(#arrowhead)" />
+    <path class="edge" data-from="fix" data-to="close" d="M152.0 694 V728" fill="none" stroke="#69616d" stroke-width="1.5" stroke-linejoin="round" marker-end="url(#arrowhead)" />
+  </g>
+  <g class="edge-labels">
+    <text x="152.0" y="406" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="13" font-weight="600" fill="#514b56" stroke="#fdfbf9" stroke-width="3" paint-order="stroke">Supported</text>
+    <text x="41" y="389" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="13" font-weight="600" fill="#514b56" stroke="#fdfbf9" stroke-width="3" paint-order="stroke">Exception</text>
+  </g>
+  <g class="nodes">
+    <g class="node" data-node="scope">
+      <rect x="34" y="10" width="236" height="62" rx="12" fill="#302c34" stroke="#302c34" stroke-width="1.3" />
+      <text x="152.0" y="30.5" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#ffffff">Define the obligation</text>
+      <text x="152.0" y="53.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#f2e9f3">Owner, period and population</text>
+    </g>
+    <g class="node" data-node="policy">
+      <rect x="34" y="106" width="236" height="62" rx="12" fill="#ffffff" stroke="#ccc5ce" stroke-width="1.3" />
+      <text x="152.0" y="126.5" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#28242c">Expected operation</text>
+      <text x="152.0" y="149.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#554f58">Procedure and rule in force</text>
+    </g>
+    <g class="node" data-node="logs">
+      <rect x="34" y="202" width="236" height="80" rx="12" fill="#ffffff" stroke="#ccc5ce" stroke-width="1.3" />
+      <text x="152.0" y="222.5" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#28242c">Observed operation</text>
+      <text x="152.0" y="245.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#554f58">Transactions, actions and</text>
+      <text x="152.0" y="263.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#554f58">exceptions</text>
+    </g>
+    <g class="node" data-node="sample">
+      <rect x="34" y="316" width="236" height="62" rx="12" fill="#fff2c8" stroke="#b79538" stroke-width="1.3" />
+      <text x="152.0" y="336.5" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#4b381c">Reperform the sample</text>
+      <text x="152.0" y="359.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#665634">Compare expected and actual</text>
+    </g>
+    <g class="node" data-node="ok">
+      <rect x="34" y="422" width="236" height="62" rx="12" fill="#f1e2f4" stroke="#b392bd" stroke-width="1.3" />
+      <text x="152.0" y="442.5" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#49334c">Retain the evidence</text>
+      <text x="152.0" y="465.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#5a465f">Record scope and limitations</text>
+    </g>
+    <g class="node" data-node="gap">
+      <rect x="34" y="518" width="236" height="80" rx="12" fill="#ffebe3" stroke="#d39883" stroke-width="1.3" />
+      <text x="152.0" y="538.5" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#583a28">Scope the failure</text>
+      <text x="152.0" y="561.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#6e513d">Root cause and interim</text>
+      <text x="152.0" y="579.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#6e513d">control</text>
+    </g>
+    <g class="node" data-node="fix">
+      <rect x="34" y="632" width="236" height="62" rx="12" fill="#ffffff" stroke="#ccc5ce" stroke-width="1.3" />
+      <text x="152.0" y="652.5" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#28242c">Repair and retest</text>
+      <text x="152.0" y="675.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#554f58">Backfill plus a later sample</text>
+    </g>
+    <g class="node" data-node="close">
+      <rect x="34" y="728" width="236" height="80" rx="12" fill="#f1e2f4" stroke="#b392bd" stroke-width="1.3" />
+      <text x="152.0" y="748.5" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#49334c">Decide closure</text>
+      <text x="152.0" y="771.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#5a465f">Independent review and</text>
+      <text x="152.0" y="789.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#5a465f">sign-off</text>
+    </g>
+  </g>
+</svg>

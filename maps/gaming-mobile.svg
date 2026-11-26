@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="304" data-layout="mobile" height="904" viewBox="0 0 304 904" role="img" aria-labelledby="diagram-title diagram-desc" style="background:#fdfbf9">
+  <title id="diagram-title">Which explanation fits the player’s activity?</title><desc id="diagram-desc">AML, fraud and responsible-gaming teams have different mandates. Document the evidence for each referral and the records that were unavailable to the decision-maker.</desc><defs>
+    <marker id="arrowhead" markerWidth="7" markerHeight="7" viewBox="0 0 7 7" refX="7" refY="3.5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0 0 L7 3.5 L0 7 Z" fill="#69616d" />
+    </marker>
+  </defs>
+  <g class="edges">
+    <path class="edge" data-from="join" data-to="test" d="M152.0 111 V145" fill="none" stroke="#69616d" stroke-width="1.5" stroke-linejoin="round" marker-end="url(#arrowhead)" />
+    <path class="edge" data-from="test" data-to="ordinary" d="M152.0 246 V280" fill="none" stroke="#69616d" stroke-width="1.5" stroke-linejoin="round" marker-end="url(#arrowhead)" />
+    <path class="edge" data-from="test" data-to="crime" d="M270 195.5 H287 V434.0 H270" fill="none" stroke="#69616d" stroke-width="1.5" stroke-linejoin="round" marker-end="url(#arrowhead)" />
+    <path class="edge" data-from="test" data-to="harm" d="M34 195.5 H8 V539.0 H34" fill="none" stroke="#69616d" stroke-width="1.5" stroke-linejoin="round" marker-end="url(#arrowhead)" />
+    <path class="edge" data-from="ordinary" data-to="record" d="M270 320.0 H296 V635.0 H270" fill="none" stroke="#69616d" stroke-width="1.5" stroke-linejoin="round" marker-end="url(#arrowhead)" />
+    <path class="edge" data-from="crime" data-to="refer" d="M34 434.0 H17 V740.0 H34" fill="none" stroke="#69616d" stroke-width="1.5" stroke-linejoin="round" marker-end="url(#arrowhead)" />
+    <path class="edge" data-from="harm" data-to="care" d="M270 539.0 H287 V854.0 H270" fill="none" stroke="#69616d" stroke-width="1.5" stroke-linejoin="round" marker-end="url(#arrowhead)" />
+  </g>
+  <g class="edge-labels" />
+  <g class="nodes">
+    <g class="node" data-node="join">
+      <rect x="34" y="10" width="236" height="101" rx="12" fill="#302c34" stroke="#302c34" stroke-width="1.3" />
+      <text x="152.0" y="30.5" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#ffffff">Build the player</text>
+      <text x="152.0" y="51.5" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#ffffff">timeline</text>
+      <text x="152.0" y="74.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#f2e9f3">Funding, play, incentives</text>
+      <text x="152.0" y="92.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#f2e9f3">and cash-out</text>
+    </g>
+    <g class="node" data-node="test">
+      <rect x="34" y="145" width="236" height="101" rx="12" fill="#fff2c8" stroke="#b79538" stroke-width="1.3" />
+      <text x="152.0" y="165.5" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#4b381c">Test competing</text>
+      <text x="152.0" y="186.5" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#4b381c">explanations</text>
+      <text x="152.0" y="209.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#665634">Check observations and</text>
+      <text x="152.0" y="227.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#665634">permissions</text>
+    </g>
+    <g class="node" data-node="ordinary">
+      <rect x="34" y="280" width="236" height="80" rx="12" fill="#ffffff" stroke="#ccc5ce" stroke-width="1.3" />
+      <text x="152.0" y="300.5" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#28242c">Ordinary play</text>
+      <text x="152.0" y="323.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#554f58">Compare profile and play</text>
+      <text x="152.0" y="341.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#554f58">history</text>
+    </g>
+    <g class="node" data-node="crime">
+      <rect x="34" y="394" width="236" height="80" rx="12" fill="#ffffff" stroke="#ccc5ce" stroke-width="1.3" />
+      <text x="152.0" y="414.5" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#28242c">Financial crime</text>
+      <text x="152.0" y="437.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#554f58">Test source, links and</text>
+      <text x="152.0" y="455.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#554f58">incentive abuse</text>
+    </g>
+    <g class="node" data-node="harm">
+      <rect x="34" y="508" width="236" height="62" rx="12" fill="#ffffff" stroke="#ccc5ce" stroke-width="1.3" />
+      <text x="152.0" y="528.5" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#28242c">Player harm</text>
+      <text x="152.0" y="551.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#554f58">Assess welfare indicators</text>
+    </g>
+    <g class="node" data-node="record">
+      <rect x="34" y="604" width="236" height="62" rx="12" fill="#f1e2f4" stroke="#b392bd" stroke-width="1.3" />
+      <text x="152.0" y="624.5" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#49334c">Document disposition</text>
+      <text x="152.0" y="647.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#5a465f">Record contrary evidence</text>
+    </g>
+    <g class="node" data-node="refer">
+      <rect x="34" y="700" width="236" height="80" rx="12" fill="#ffebe3" stroke="#d39883" stroke-width="1.3" />
+      <text x="152.0" y="720.5" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#583a28">Refer to AML or fraud</text>
+      <text x="152.0" y="743.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#6e513d">Assess reporting</text>
+      <text x="152.0" y="761.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#6e513d">independently</text>
+    </g>
+    <g class="node" data-node="care">
+      <rect x="34" y="814" width="236" height="80" rx="12" fill="#f1e2f4" stroke="#b392bd" stroke-width="1.3" />
+      <text x="152.0" y="834.5" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#49334c">Offer player support</text>
+      <text x="152.0" y="857.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#5a465f">Use authorized welfare</text>
+      <text x="152.0" y="875.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#5a465f">channels</text>
+    </g>
+  </g>
+</svg>

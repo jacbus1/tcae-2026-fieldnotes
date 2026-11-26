@@ -48,57 +48,57 @@
 <g id="node1" class="node">
 <title>join</title>
 <path fill="#302c34" stroke="#302c34" stroke-width="1.3" d="M478.5,-276C478.5,-276 249.5,-276 249.5,-276 243.5,-276 237.5,-270 237.5,-264 237.5,-264 237.5,-243 237.5,-243 237.5,-237 243.5,-231 249.5,-231 249.5,-231 478.5,-231 478.5,-231 484.5,-231 490.5,-237 490.5,-243 490.5,-243 490.5,-264 490.5,-264 490.5,-270 484.5,-276 478.5,-276" />
-<text text-anchor="start" x="258.5" y="-256" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#ffffff">Build the player timeline</text>
-<text text-anchor="start" x="249.5" y="-243.4" font-family="DejaVu Sans" font-size="12.00" fill="#f2e9f3">Funding, play, incentives and cash-out</text>
+<text text-anchor="middle" x="364.00" y="-261.50" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-weight="bold" font-size="15.00" fill="#ffffff" dominant-baseline="central">Build the player timeline</text>
+<text text-anchor="middle" x="364.00" y="-244.00" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="12.00" fill="#f2e9f3" dominant-baseline="central">Funding, play, incentives and cash-out</text>
 </g>
 
 <g id="node2" class="node">
 <title>test</title>
 <path fill="#fff2c8" stroke="#b79538" stroke-width="1.3" d="M486.5,-199C486.5,-199 241.5,-199 241.5,-199 235.5,-199 229.5,-193 229.5,-187 229.5,-187 229.5,-166 229.5,-166 229.5,-160 235.5,-154 241.5,-154 241.5,-154 486.5,-154 486.5,-154 492.5,-154 498.5,-160 498.5,-166 498.5,-166 498.5,-187 498.5,-187 498.5,-193 492.5,-199 486.5,-199" />
-<text text-anchor="start" x="241.5" y="-179" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#4b381c">Test competing explanations</text>
-<text text-anchor="start" x="255" y="-166.4" font-family="DejaVu Sans" font-size="12.00" fill="#665634">Check observations and permissions</text>
+<text text-anchor="middle" x="364.00" y="-184.50" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-weight="bold" font-size="15.00" fill="#4b381c" dominant-baseline="central">Test competing explanations</text>
+<text text-anchor="middle" x="364.00" y="-167.00" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="12.00" fill="#665634" dominant-baseline="central">Check observations and permissions</text>
 </g>
 
 <g id="node3" class="node">
 <title>ordinary</title>
 <path fill="#ffffff" stroke="#ccc5ce" stroke-width="1.3" d="M208,-122C208,-122 12,-122 12,-122 6,-122 0,-116 0,-110 0,-110 0,-89 0,-89 0,-83 6,-77 12,-77 12,-77 208,-77 208,-77 214,-77 220,-83 220,-89 220,-89 220,-110 220,-110 220,-116 214,-122 208,-122" />
-<text text-anchor="start" x="52.5" y="-102" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#28242c">Ordinary play</text>
-<text text-anchor="start" x="12" y="-89.4" font-family="DejaVu Sans" font-size="12.00" fill="#554f58">Compare profile and play history</text>
+<text text-anchor="middle" x="110.00" y="-107.50" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-weight="bold" font-size="15.00" fill="#28242c" dominant-baseline="central">Ordinary play</text>
+<text text-anchor="middle" x="110.00" y="-90.00" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="12.00" fill="#554f58" dominant-baseline="central">Compare profile and play history</text>
 </g>
 
 <g id="node4" class="node">
 <title>crime</title>
 <path fill="#ffffff" stroke="#ccc5ce" stroke-width="1.3" d="M476.5,-122C476.5,-122 251.5,-122 251.5,-122 245.5,-122 239.5,-116 239.5,-110 239.5,-110 239.5,-89 239.5,-89 239.5,-83 245.5,-77 251.5,-77 251.5,-77 476.5,-77 476.5,-77 482.5,-77 488.5,-83 488.5,-89 488.5,-89 488.5,-110 488.5,-110 488.5,-116 482.5,-122 476.5,-122" />
-<text text-anchor="start" x="299" y="-102" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#28242c">Financial crime</text>
-<text text-anchor="start" x="251.5" y="-89.4" font-family="DejaVu Sans" font-size="12.00" fill="#554f58">Test source, links and incentive abuse</text>
+<text text-anchor="middle" x="364.00" y="-107.50" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-weight="bold" font-size="15.00" fill="#28242c" dominant-baseline="central">Financial crime</text>
+<text text-anchor="middle" x="364.00" y="-90.00" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="12.00" fill="#554f58" dominant-baseline="central">Test source, links and incentive abuse</text>
 </g>
 
 <g id="node5" class="node">
 <title>harm</title>
 <path fill="#ffffff" stroke="#ccc5ce" stroke-width="1.3" d="M672.5,-122C672.5,-122 521.5,-122 521.5,-122 515.5,-122 509.5,-116 509.5,-110 509.5,-110 509.5,-89 509.5,-89 509.5,-83 515.5,-77 521.5,-77 521.5,-77 672.5,-77 672.5,-77 678.5,-77 684.5,-83 684.5,-89 684.5,-89 684.5,-110 684.5,-110 684.5,-116 678.5,-122 672.5,-122" />
-<text text-anchor="start" x="545.5" y="-102" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#28242c">Player harm</text>
-<text text-anchor="start" x="521.5" y="-89.4" font-family="DejaVu Sans" font-size="12.00" fill="#554f58">Assess welfare indicators</text>
+<text text-anchor="middle" x="597.00" y="-107.50" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-weight="bold" font-size="15.00" fill="#28242c" dominant-baseline="central">Player harm</text>
+<text text-anchor="middle" x="597.00" y="-90.00" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="12.00" fill="#554f58" dominant-baseline="central">Assess welfare indicators</text>
 </g>
 
 <g id="node6" class="node">
 <title>record</title>
 <path fill="#f1e2f4" stroke="#b392bd" stroke-width="1.3" d="M203.5,-45C203.5,-45 16.5,-45 16.5,-45 10.5,-45 4.5,-39 4.5,-33 4.5,-33 4.5,-12 4.5,-12 4.5,-6 10.5,0 16.5,0 16.5,0 203.5,0 203.5,0 209.5,0 215.5,-6 215.5,-12 215.5,-12 215.5,-33 215.5,-33 215.5,-39 209.5,-45 203.5,-45" />
-<text text-anchor="start" x="16.5" y="-25" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#49334c">Document disposition</text>
-<text text-anchor="start" x="33" y="-12.4" font-family="DejaVu Sans" font-size="12.00" fill="#5a465f">Record contrary evidence</text>
+<text text-anchor="middle" x="110.00" y="-30.50" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-weight="bold" font-size="15.00" fill="#49334c" dominant-baseline="central">Document disposition</text>
+<text text-anchor="middle" x="110.00" y="-13.00" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="12.00" fill="#5a465f" dominant-baseline="central">Record contrary evidence</text>
 </g>
 
 <g id="node7" class="node">
 <title>refer</title>
 <path fill="#ffebe3" stroke="#d39883" stroke-width="1.3" d="M456.5,-45C456.5,-45 269.5,-45 269.5,-45 263.5,-45 257.5,-39 257.5,-33 257.5,-33 257.5,-12 257.5,-12 257.5,-6 263.5,0 269.5,0 269.5,0 456.5,0 456.5,0 462.5,0 468.5,-6 468.5,-12 468.5,-12 468.5,-33 468.5,-33 468.5,-39 462.5,-45 456.5,-45" />
-<text text-anchor="start" x="270.5" y="-25" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#583a28">Refer to AML or fraud</text>
-<text text-anchor="start" x="269.5" y="-12.4" font-family="DejaVu Sans" font-size="12.00" fill="#6e513d">Assess reporting independently</text>
+<text text-anchor="middle" x="363.00" y="-30.50" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-weight="bold" font-size="15.00" fill="#583a28" dominant-baseline="central">Refer to AML or fraud</text>
+<text text-anchor="middle" x="363.00" y="-13.00" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="12.00" fill="#6e513d" dominant-baseline="central">Assess reporting independently</text>
 </g>
 
 <g id="node8" class="node">
 <title>care</title>
 <path fill="#f1e2f4" stroke="#b392bd" stroke-width="1.3" d="M696,-45C696,-45 500,-45 500,-45 494,-45 488,-39 488,-33 488,-33 488,-12 488,-12 488,-6 494,0 500,0 500,0 696,0 696,0 702,0 708,-6 708,-12 708,-12 708,-33 708,-33 708,-39 702,-45 696,-45" />
-<text text-anchor="start" x="511.5" y="-25" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#49334c">Offer player support</text>
-<text text-anchor="start" x="500" y="-12.4" font-family="DejaVu Sans" font-size="12.00" fill="#5a465f">Use authorized welfare channels</text>
+<text text-anchor="middle" x="598.00" y="-30.50" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-weight="bold" font-size="15.00" fill="#49334c" dominant-baseline="central">Offer player support</text>
+<text text-anchor="middle" x="598.00" y="-13.00" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="12.00" fill="#5a465f" dominant-baseline="central">Use authorized welfare channels</text>
 </g>
 </g>
 </svg>

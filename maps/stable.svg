@@ -43,70 +43,70 @@
 <title>match-&gt;done</title>
 <path fill="none" stroke="#756e79" stroke-width="1.35" d="M195.08,-88.99C178.91,-76.97 158.64,-61.9 141.63,-49.25" />
 <polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="143.07,-47.27 135.99,-45.06 140.15,-51.2 143.07,-47.27" />
-<text text-anchor="middle" x="197" y="-64.2" font-family="DejaVu Sans" font-size="11.00" fill="#514b56">Matched</text>
+<text text-anchor="middle" x="197" y="-64.2" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="11.00" fill="#514b56">Matched</text>
 </g>
 
 <g id="edge8" class="edge">
 <title>match-&gt;delay</title>
 <path fill="none" stroke="#756e79" stroke-width="1.35" d="M252.92,-88.99C269.09,-76.97 289.36,-61.9 306.37,-49.25" />
 <polygon fill="#756e79" stroke="#756e79" stroke-width="1.35" points="307.85,-51.2 312.01,-45.06 304.93,-47.27 307.85,-51.2" />
-<text text-anchor="middle" x="324.5" y="-64.2" font-family="DejaVu Sans" font-size="11.00" fill="#514b56">Gap or delay</text>
+<text text-anchor="middle" x="324.5" y="-64.2" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="11.00" fill="#514b56">Gap or delay</text>
 </g>
 
 <g id="node1" class="node">
 <title>claim</title>
 <path fill="#302c34" stroke="#302c34" stroke-width="1.3" d="M302.5,-368C302.5,-368 151.5,-368 151.5,-368 145.5,-368 139.5,-362 139.5,-356 139.5,-356 139.5,-335 139.5,-335 139.5,-329 145.5,-323 151.5,-323 151.5,-323 302.5,-323 302.5,-323 308.5,-323 314.5,-329 314.5,-335 314.5,-335 314.5,-356 314.5,-356 314.5,-362 308.5,-368 302.5,-368" />
-<text text-anchor="start" x="165" y="-348" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#ffffff">Holder’s claim</text>
-<text text-anchor="start" x="151.5" y="-335.4" font-family="DejaVu Sans" font-size="12.00" fill="#f2e9f3">Issuer and product terms</text>
+<text text-anchor="middle" x="227.00" y="-353.50" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-weight="bold" font-size="15.00" fill="#ffffff" dominant-baseline="central">Holder’s claim</text>
+<text text-anchor="middle" x="227.00" y="-336.00" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="12.00" fill="#f2e9f3" dominant-baseline="central">Issuer and product terms</text>
 </g>
 
 <g id="node2" class="node">
 <title>token</title>
 <path fill="#ffffff" stroke="#ccc5ce" stroke-width="1.3" d="M205,-290C205,-290 55,-290 55,-290 49,-290 43,-284 43,-278 43,-278 43,-257 43,-257 43,-251 49,-245 55,-245 55,-245 205,-245 205,-245 211,-245 217,-251 217,-257 217,-257 217,-278 217,-278 217,-284 211,-290 205,-290" />
-<text text-anchor="start" x="55" y="-270" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#28242c">Token settlement</text>
-<text text-anchor="start" x="72.5" y="-257.4" font-family="DejaVu Sans" font-size="12.00" fill="#554f58">Wallet or custodian</text>
+<text text-anchor="middle" x="130.00" y="-275.50" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-weight="bold" font-size="15.00" fill="#28242c" dominant-baseline="central">Token settlement</text>
+<text text-anchor="middle" x="130.00" y="-258.00" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="12.00" fill="#554f58" dominant-baseline="central">Wallet or custodian</text>
 </g>
 
 <g id="node3" class="node">
 <title>fiat</title>
 <path fill="#ffffff" stroke="#ccc5ce" stroke-width="1.3" d="M403.5,-290C403.5,-290 250.5,-290 250.5,-290 244.5,-290 238.5,-284 238.5,-278 238.5,-278 238.5,-257 238.5,-257 238.5,-251 244.5,-245 250.5,-245 250.5,-245 403.5,-245 403.5,-245 409.5,-245 415.5,-251 415.5,-257 415.5,-257 415.5,-278 415.5,-278 415.5,-284 409.5,-290 403.5,-290" />
-<text text-anchor="start" x="278.5" y="-270" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#28242c">Fiat payout</text>
-<text text-anchor="start" x="250.5" y="-257.4" font-family="DejaVu Sans" font-size="12.00" fill="#554f58">Bank or payment partner</text>
+<text text-anchor="middle" x="327.00" y="-275.50" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-weight="bold" font-size="15.00" fill="#28242c" dominant-baseline="central">Fiat payout</text>
+<text text-anchor="middle" x="327.00" y="-258.00" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="12.00" fill="#554f58" dominant-baseline="central">Bank or payment partner</text>
 </g>
 
 <g id="node4" class="node">
 <title>hash</title>
 <path fill="#ffffff" stroke="#ccc5ce" stroke-width="1.3" d="M203,-212C203,-212 37,-212 37,-212 31,-212 25,-206 25,-200 25,-200 25,-179 25,-179 25,-173 31,-167 37,-167 37,-167 203,-167 203,-167 209,-167 215,-173 215,-179 215,-179 215,-200 215,-200 215,-206 209,-212 203,-212" />
-<text text-anchor="start" x="37" y="-192" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#28242c">Check chain finality</text>
-<text text-anchor="start" x="49" y="-179.4" font-family="DejaVu Sans" font-size="12.00" fill="#554f58">Hash, amount and time</text>
+<text text-anchor="middle" x="120.00" y="-197.50" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-weight="bold" font-size="15.00" fill="#28242c" dominant-baseline="central">Check chain finality</text>
+<text text-anchor="middle" x="120.00" y="-180.00" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="12.00" fill="#554f58" dominant-baseline="central">Hash, amount and time</text>
 </g>
 
 <g id="node5" class="node">
 <title>credit</title>
 <path fill="#ffffff" stroke="#ccc5ce" stroke-width="1.3" d="M411.5,-212C411.5,-212 246.5,-212 246.5,-212 240.5,-212 234.5,-206 234.5,-200 234.5,-200 234.5,-179 234.5,-179 234.5,-173 240.5,-167 246.5,-167 246.5,-167 411.5,-167 411.5,-167 417.5,-167 423.5,-173 423.5,-179 423.5,-179 423.5,-200 423.5,-200 423.5,-206 417.5,-212 411.5,-212" />
-<text text-anchor="start" x="246.5" y="-192" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#28242c">Check usable funds</text>
-<text text-anchor="start" x="255" y="-179.4" font-family="DejaVu Sans" font-size="12.00" fill="#554f58">Credit time and currency</text>
+<text text-anchor="middle" x="329.00" y="-197.50" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-weight="bold" font-size="15.00" fill="#28242c" dominant-baseline="central">Check usable funds</text>
+<text text-anchor="middle" x="329.00" y="-180.00" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="12.00" fill="#554f58" dominant-baseline="central">Credit time and currency</text>
 </g>
 
 <g id="node6" class="node">
 <title>match</title>
 <path fill="#fff2c8" stroke="#b79538" stroke-width="1.3" d="M308.5,-134C308.5,-134 139.5,-134 139.5,-134 133.5,-134 127.5,-128 127.5,-122 127.5,-122 127.5,-101 127.5,-101 127.5,-95 133.5,-89 139.5,-89 139.5,-89 308.5,-89 308.5,-89 314.5,-89 320.5,-95 320.5,-101 320.5,-101 320.5,-122 320.5,-122 320.5,-128 314.5,-134 308.5,-134" />
-<text text-anchor="start" x="140.5" y="-114" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#4b381c">Reconcile both legs</text>
-<text text-anchor="start" x="139.5" y="-101.4" font-family="DejaVu Sans" font-size="12.00" fill="#665634">Match transaction to payout</text>
+<text text-anchor="middle" x="224.00" y="-119.50" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-weight="bold" font-size="15.00" fill="#4b381c" dominant-baseline="central">Reconcile both legs</text>
+<text text-anchor="middle" x="224.00" y="-102.00" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="12.00" fill="#665634" dominant-baseline="central">Match transaction to payout</text>
 </g>
 
 <g id="node7" class="node">
 <title>done</title>
 <path fill="#f1e2f4" stroke="#b392bd" stroke-width="1.3" d="M202,-45C202,-45 12,-45 12,-45 6,-45 0,-39 0,-33 0,-33 0,-12 0,-12 0,-6 6,0 12,0 12,0 202,0 202,0 208,0 214,-6 214,-12 214,-12 214,-33 214,-33 214,-39 208,-45 202,-45" />
-<text text-anchor="start" x="36" y="-25" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#49334c">Confirm delivery</text>
-<text text-anchor="start" x="12" y="-12.4" font-family="DejaVu Sans" font-size="12.00" fill="#5a465f">Record when funds were usable</text>
+<text text-anchor="middle" x="107.00" y="-30.50" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-weight="bold" font-size="15.00" fill="#49334c" dominant-baseline="central">Confirm delivery</text>
+<text text-anchor="middle" x="107.00" y="-13.00" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="12.00" fill="#5a465f" dominant-baseline="central">Record when funds were usable</text>
 </g>
 
 <g id="node8" class="node">
 <title>delay</title>
 <path fill="#ffebe3" stroke="#d39883" stroke-width="1.3" d="M436.5,-45C436.5,-45 245.5,-45 245.5,-45 239.5,-45 233.5,-39 233.5,-33 233.5,-33 233.5,-12 233.5,-12 233.5,-6 239.5,0 245.5,0 245.5,0 436.5,0 436.5,0 442.5,0 448.5,-6 448.5,-12 448.5,-12 448.5,-33 448.5,-33 448.5,-39 442.5,-45 436.5,-45" />
-<text text-anchor="start" x="246" y="-25" font-family="DejaVu Sans" font-weight="bold" font-size="15.00" fill="#583a28">Resolve the exception</text>
-<text text-anchor="start" x="245.5" y="-12.4" font-family="DejaVu Sans" font-size="12.00" fill="#6e513d">Assign owner and inform holder</text>
+<text text-anchor="middle" x="341.00" y="-30.50" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-weight="bold" font-size="15.00" fill="#583a28" dominant-baseline="central">Resolve the exception</text>
+<text text-anchor="middle" x="341.00" y="-13.00" font-family="Arial, Helvetica, DejaVu Sans, sans-serif" font-size="12.00" fill="#6e513d" dominant-baseline="central">Assign owner and inform holder</text>
 </g>
 </g>
 </svg>
